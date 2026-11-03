@@ -29,8 +29,8 @@ Never read, copy, log, or store OAuth tokens or API keys.
 | `whoami` | None | The Xquik account this connection uses | Free |
 
 - `path` works with or without `/api/v1`.
-- `search` and `execute` run on Xquik's servers. `execute` adds authentication
-  & an `Idempotency-Key` to writes.
+- `search`, `execute` and `executeWrite` run on Xquik's servers. They add
+  authentication, and writes get an `Idempotency-Key`.
 - On the Claude plugin, `execute` only reads. Use `executeWrite` for changes.
 - An active monitor costs 30 credits an hour while it runs.
 - MCP results use snake_case fields and Unix timestamps.

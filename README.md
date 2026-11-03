@@ -11,32 +11,29 @@ post and send DMs through an X account you connect.
 > Xquik is an independent third-party service. Not affiliated with X Corp.
 > "Twitter" and "X" are trademarks of X Corp.
 
-## See it in action
+## Xquik in Framer's video
 
 <table>
   <tr>
     <td align="center">
       <a href="https://youtu.be/4UOSpoOoC3Y?t=367">
-        <img src="https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg" alt="Framer connects Xquik MCP to coding agents" width="720">
+        <img src="https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg" alt="Framer uses Xquik to build a tweet ticker" width="720">
       </a>
       <br>
-      <strong>Xquik in Framer's video</strong>
-      <br>
-      <sub>Framer connects the Xquik MCP server at 6:07 of <a href="https://youtu.be/4UOSpoOoC3Y?t=367">Connect Framer to Claude Code, ChatGPT Codex, Cursor, and more</a>.</sub>
+      <sub>Framer uses Xquik to build a tweet ticker at 6:07 of <a href="https://youtu.be/4UOSpoOoC3Y?t=367">Connect Framer to Claude Code, ChatGPT Codex, Cursor, and more</a>.</sub>
     </td>
   </tr>
 </table>
 
-## Used at scale
+## Xquik usage
 
-Developers run Xquik through MCP, REST, SDKs and Apify. Each number links to its
-public source.
+Developers run Xquik through MCP, REST, SDKs and Apify. These numbers cover all
+of Xquik, and most come from Apify. Each one links to its source.
 
 [![Runs of Xquik's Apify Actors](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
-[![Users of Xquik's Apify Actors](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-users.json)](https://apify.com/xquik)
+[![Users summed across Xquik's Apify Actors](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-users.json)](https://apify.com/xquik)
 [![Accounts on xquik.com](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Faccounts.json)](https://xquik.com/trust#accounts)
 [![Package downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fdownloads.json)](https://xquik.com/trust#downloads)
-[![Reviews on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-reviews.json)](https://xquik.com/trust#reviews)
 [![REST API median server read time](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frest-p50.json)](https://xquik.com/trust#speed)
 [![Repos passing OpenSSF Best Practices](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fopenssf-passing.json)](https://xquik.com/trust#security)
 [![GitHub stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fgithub-stars.json)](https://github.com/Xquik-dev)
@@ -44,11 +41,10 @@ public source.
 | Measure | Number | Source |
 | --- | --- | --- |
 | Runs of Xquik's Apify Actors | 7,600,000+ | [Apify](https://apify.com/xquik) |
-| Users of Xquik's Apify Actors | 10,000+ | [Apify](https://apify.com/xquik) |
+| Users summed across Xquik's Apify Actors | 10,000+ | [Apify](https://apify.com/xquik) |
 | Accounts on xquik.com | 4,200+ | [Trust page](https://xquik.com/trust#accounts) |
 | Downloads across npm, PyPI, RubyGems, NuGet, Packagist & Terraform | 55,000+ | [Trust page](https://xquik.com/trust#downloads) |
-| Apify reviews | 56 | [Trust page](https://xquik.com/trust#reviews) |
-| Rating of Xquik's most-used Actor | 4.66 of 5 | [Trust page](https://xquik.com/trust#apify-rating) |
+| Rating of Xquik's most-used Actor | 4.66 of 5 from 16 reviews | [Trust page](https://xquik.com/trust#apify-rating) |
 | Median REST API server read time over 7 days | 664 ms | [Trust page](https://xquik.com/trust#speed) |
 | Xquik repositories passing OpenSSF Best Practices | 17 | [Trust page](https://xquik.com/trust#security) |
 | GitHub stars across Xquik's repositories | 390+ | [GitHub](https://github.com/Xquik-dev) |
@@ -120,7 +116,7 @@ Your agent should call `search`, then `execute`.
 - This repository runs no local code. It has no hooks, scripts or bundled servers.
 - Your client sends tool inputs to `xquik.com`.
 - `docs` queries reach a hosted documentation search service.
-- `search` and `execute` run your agent's JavaScript on Xquik's servers.
+- `search`, `execute` and `executeWrite` run your agent's JavaScript on Xquik's servers.
 - Posts and DMs you approve reach X.
 - Webhook events go to the URLs you set.
 - Your client runs OAuth 2.1 and stores the token.
