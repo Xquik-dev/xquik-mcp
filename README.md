@@ -79,7 +79,7 @@ only reads, and `executeWrite` makes changes such as posts and DMs.
 ## Set up
 
 Xquik has no free plan. Pay-as-you-go credits start at $10 and never expire.
-Read [pricing](https://xquik.com/pricing) before your first paid request.
+See prices on [xquik.com](https://xquik.com) before your first paid request.
 
 ### Claude Code
 
@@ -131,5 +131,5 @@ Your agent should call `search`, then `execute`.
 ## Links
 
 - [MCP docs](https://docs.xquik.com/mcp/overview)
-- [Pricing](https://xquik.com/pricing)
+- [Website](https://xquik.com)
 - [Support](mailto:support@xquik.com)
