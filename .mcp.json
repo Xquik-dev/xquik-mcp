@@ -2,7 +2,7 @@
   "mcpServers": {
     "xquik": {
       "type": "http",
-      "url": "https://xquik.com/mcp"
+      "url": "https://xquik.com/mcp?app=claude"
     }
   }
 }

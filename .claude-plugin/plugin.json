@@ -7,10 +7,14 @@
     "name": "Xquik",
     "url": "https://xquik.com"
   },
-  "homepage": "https://docs.xquik.com/mcp/overview",
+  "homepage": "https://github.com/Xquik-dev/xquik-mcp",
   "repository": "https://github.com/Xquik-dev/xquik-mcp",
   "license": "MIT",
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/Xquik-dev/xquik-mcp#readme",
+  "supportUrl": "https://xquik.com/en/contact",
   "privacyPolicyUrl": "https://xquik.com/en/privacy",
+  "termsOfServiceUrl": "https://xquik.com/en/terms",
   "keywords": [
     "x-data-api",
     "twitter-data-api",

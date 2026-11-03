@@ -69,9 +69,12 @@ Checked on 2026-11-03. See every number with its date on
 | Tool | What it does | Cost |
 | --- | --- | --- |
 | `docs` | Searches the Xquik documentation. | Free |
-| `search` | Finds the right API operation for a task. | Free |
+| `search` | Runs JavaScript your agent writes on Xquik's servers to find an API operation. | Free |
 | `execute` | Runs JavaScript your agent writes on Xquik's servers to call the API. | The called route's price |
 | `whoami` | Shows the Xquik account this connection uses. | Free |
+
+The Claude plugin connects to `https://xquik.com/mcp?app=claude`. There, `execute`
+only reads, and `executeWrite` makes changes such as posts and DMs.
 
 ## Set up
 
@@ -90,6 +93,8 @@ Read [pricing](https://xquik.com/pricing) before your first paid request.
 gemini extensions install https://github.com/Xquik-dev/xquik-mcp
 ```
 
+Then run `/mcp auth xquik` in Gemini CLI to sign in.
+
 ### Cline
 
 Follow [llms-install.md](llms-install.md).
@@ -100,7 +105,7 @@ Read the [MCP setup guide](https://docs.xquik.com/mcp/overview).
 
 ## Sign in
 
-Sign in to Xquik when your client asks. OAuth handles the token.
+Sign in to Xquik through your client. OAuth handles the token.
 
 ## Try it
 
@@ -115,7 +120,7 @@ Your agent should call `search`, then `execute`.
 - This repository runs no local code. It has no hooks, scripts or bundled servers.
 - Your client sends tool inputs to `xquik.com`.
 - `docs` queries reach a hosted documentation search service.
-- `execute` runs on Xquik's servers and calls the Xquik API.
+- `search` and `execute` run your agent's JavaScript on Xquik's servers.
 - Posts and DMs you approve reach X.
 - Webhook events go to the URLs you set.
 - Your client runs OAuth 2.1 and stores the token.
