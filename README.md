@@ -1,2 +1,85 @@
-# xquik-mcp
-X Twitter data API MCP server &amp; agent plugin by Xquik. Not affiliated with X Corp.
+# Xquik X (Twitter) Data API MCP Server
+
+Xquik is the world's fastest and cheapest X Twitter data API with the most
+complete X data. Searches & extractions charge only for delivered, unique,
+filter-matching results and never pad rows.
+
+This repository connects your agent to Xquik's hosted MCP server. Your agent can
+search posts, read profiles, export followers and monitor accounts. It can also
+post and send DMs through an X account you connect.
+
+> Xquik is an independent third-party service. Not affiliated with X Corp.
+> "Twitter" and "X" are trademarks of X Corp.
+
+## What you get
+
+| Part | What it does |
+| --- | --- |
+| `xquik` MCP server | Connects to `https://xquik.com/mcp` over Streamable HTTP. |
+| `xquik-mcp` Skill | Teaches your agent the tools, costs & confirmation rules. |
+
+## Tools
+
+| Tool | What it does | Cost |
+| --- | --- | --- |
+| `docs` | Searches the Xquik documentation. | Free |
+| `search` | Finds the right API operation for a task. | Free |
+| `execute` | Runs JavaScript your agent writes on Xquik's servers to call the API. | The called route's price |
+| `whoami` | Shows the Xquik account this connection uses. | Free |
+
+## Set up
+
+Xquik has no free plan. Pay-as-you-go credits start at $10 and never expire.
+Read [pricing](https://xquik.com/pricing) before your first paid request.
+
+### Claude Code
+
+```bash
+/plugin install xquik --marketplace Xquik-dev/xquik-mcp
+```
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/Xquik-dev/xquik-mcp
+```
+
+### Cline
+
+Follow [llms-install.md](llms-install.md).
+
+### Other clients
+
+Read the [MCP setup guide](https://docs.xquik.com/mcp/overview).
+
+## Sign in
+
+Sign in to Xquik when your client asks. OAuth handles the token.
+
+## Try it
+
+- "Find the 5 latest posts about AI agents on X and summarize them."
+- "Show the profile & 10 latest posts of @NASA."
+- "Estimate an export of @NASA's followers. Don't run it yet."
+
+Your agent should call `search`, then `execute`.
+
+## Data & privacy
+
+- This repository runs no local code. It has no hooks, scripts or bundled servers.
+- Your client sends tool inputs to `xquik.com`.
+- `docs` queries reach a hosted documentation search service.
+- `execute` runs on Xquik's servers and calls the Xquik API.
+- Posts and DMs you approve reach X.
+- Webhook events go to the URLs you set.
+- Your client runs OAuth 2.1 and stores the token.
+- The Skill tells your agent to ask before private reads, metered bulk jobs and writes.
+- The [privacy policy](https://xquik.com/en/privacy) and
+  [terms](https://xquik.com/en/terms) cover what Xquik stores.
+
+## Links
+
+- [MCP docs](https://docs.xquik.com/mcp/overview)
+- [Pricing](https://xquik.com/pricing)
+- [Trust signals](https://xquik.com/trust)
+- [Support](mailto:support@xquik.com)

@@ -1,0 +1,19 @@
+{
+  "name": "xquik",
+  "owner": {
+    "name": "Xquik",
+    "email": "support@xquik.com"
+  },
+  "metadata": {
+    "description": "Xquik's X Twitter data API plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "xquik",
+      "source": "./",
+      "description": "Xquik is the world's fastest and cheapest X Twitter data API with the most complete X data. Search posts, read profiles, monitor accounts, post & send DMs over MCP. Searches & extractions charge only for delivered, unique, filter-matching results. Not affiliated with X Corp.",
+      "version": "1.0.0"
+    }
+  ]
+}
