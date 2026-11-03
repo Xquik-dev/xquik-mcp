@@ -11,6 +11,52 @@ post and send DMs through an X account you connect.
 > Xquik is an independent third-party service. Not affiliated with X Corp.
 > "Twitter" and "X" are trademarks of X Corp.
 
+## See it in action
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://youtu.be/4UOSpoOoC3Y?t=367">
+        <img src="https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg" alt="Framer connects Xquik MCP to coding agents" width="720">
+      </a>
+      <br>
+      <strong>Xquik in Framer's video</strong>
+      <br>
+      <sub>Framer connects the Xquik MCP server at 6:07 of <a href="https://youtu.be/4UOSpoOoC3Y?t=367">Connect Framer to Claude Code, ChatGPT Codex, Cursor, and more</a>.</sub>
+    </td>
+  </tr>
+</table>
+
+## Used at scale
+
+Developers run Xquik through MCP, REST, SDKs and Apify. Each number links to its
+public source.
+
+[![Runs of Xquik's Apify Actors](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-runs.json)](https://apify.com/xquik)
+[![Users of Xquik's Apify Actors](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-users.json)](https://apify.com/xquik)
+[![Accounts on xquik.com](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Faccounts.json)](https://xquik.com/trust#accounts)
+[![Package downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fdownloads.json)](https://xquik.com/trust#downloads)
+[![Reviews on Apify](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fapify-reviews.json)](https://xquik.com/trust#reviews)
+[![REST API median server read time](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frest-p50.json)](https://xquik.com/trust#speed)
+[![Repos passing OpenSSF Best Practices](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fopenssf-passing.json)](https://xquik.com/trust#security)
+[![GitHub stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fgithub-stars.json)](https://github.com/Xquik-dev)
+
+| Measure | Number | Source |
+| --- | --- | --- |
+| Runs of Xquik's Apify Actors | 7,600,000+ | [Apify](https://apify.com/xquik) |
+| Users of Xquik's Apify Actors | 10,000+ | [Apify](https://apify.com/xquik) |
+| Accounts on xquik.com | 4,200+ | [Trust page](https://xquik.com/trust#accounts) |
+| Downloads across npm, PyPI, RubyGems, NuGet, Packagist & Terraform | 55,000+ | [Trust page](https://xquik.com/trust#downloads) |
+| Apify reviews | 56 | [Trust page](https://xquik.com/trust#reviews) |
+| Rating of Xquik's most-used Actor | 4.66 of 5 | [Trust page](https://xquik.com/trust#apify-rating) |
+| Median REST API server read time over 7 days | 664 ms | [Trust page](https://xquik.com/trust#speed) |
+| Xquik repositories passing OpenSSF Best Practices | 17 | [Trust page](https://xquik.com/trust#security) |
+| GitHub stars across Xquik's repositories | 390+ | [GitHub](https://github.com/Xquik-dev) |
+
+Checked on 2026-11-03. See every number with its date on
+[xquik.com/trust](https://xquik.com/trust) or as
+[JSON](https://xquik.com/trust.json).
+
 ## What you get
 
 | Part | What it does |
@@ -81,5 +127,4 @@ Your agent should call `search`, then `execute`.
 
 - [MCP docs](https://docs.xquik.com/mcp/overview)
 - [Pricing](https://xquik.com/pricing)
-- [Trust signals](https://xquik.com/trust)
 - [Support](mailto:support@xquik.com)
