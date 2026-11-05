@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use Xquik Twitter MCP server, cite it using this metadata.
+title: Xquik Twitter MCP server
+type: software
+abstract: >-
+  Twitter MCP server & X MCP plugin for Xquik. AI agents search tweets and
+  read profiles, followers & trends through the Xquik X Twitter data API.
+authors:
+  - name: Xquik
+    website: https://xquik.com
+url: https://github.com/Xquik-dev/xquik-mcp
+repository-code: https://github.com/Xquik-dev/xquik-mcp
+license: MIT
+keywords:
+  - Xquik
+  - Twitter MCP
+  - X MCP
+  - MCP server
+  - model context protocol
+  - X API
+  - AI agents
