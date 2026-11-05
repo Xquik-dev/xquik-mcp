@@ -1,15 +1,58 @@
-# Xquik X (Twitter) Data API MCP Server
+# Twitter MCP Server & X Data API by Xquik
+
+This Twitter MCP server connects your agent to Xquik's hosted X MCP.
 
 Xquik is the world's fastest and cheapest X Twitter data API with the most
 complete X data. Searches & extractions charge only for delivered, unique,
 filter-matching results and never pad rows.
 
-This repository connects your agent to Xquik's hosted MCP server. Your agent can
+Your agent can
 search posts, read profiles, export followers and monitor accounts. It can also
 post and send DMs through an X account you connect.
 
 > Xquik is an independent third-party service. Not affiliated with X Corp.
 > "Twitter" and "X" are trademarks of X Corp.
+
+## Install the Twitter MCP server
+
+Point any MCP client at the hosted server.
+
+```text
+https://xquik.com/mcp
+```
+
+Xquik has no free plan. Pay-as-you-go credits start at $10 and never expire.
+See prices on [xquik.com](https://xquik.com) before your first paid request.
+
+### Add the X MCP to Claude Code
+
+Add the server with 1 command.
+
+```bash
+claude mcp add --transport http xquik https://xquik.com/mcp
+```
+
+Or install the plugin, which adds the Skill too.
+
+```bash
+/plugin install xquik --marketplace Xquik-dev/xquik-mcp
+```
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/Xquik-dev/xquik-mcp
+```
+
+Then run `/mcp auth xquik` in Gemini CLI to sign in.
+
+### Cline
+
+Follow [llms-install.md](llms-install.md).
+
+### Other clients
+
+Read the [MCP setup guide](https://docs.xquik.com/mcp/overview).
 
 ## Xquik in Framer's video
 
@@ -72,33 +115,6 @@ Checked on 2026-11-03. See every number with its date on
 The Claude plugin connects to `https://xquik.com/mcp?app=claude`. There, `execute`
 only reads, and `executeWrite` makes changes such as posts and DMs.
 
-## Set up
-
-Xquik has no free plan. Pay-as-you-go credits start at $10 and never expire.
-See prices on [xquik.com](https://xquik.com) before your first paid request.
-
-### Claude Code
-
-```bash
-/plugin install xquik --marketplace Xquik-dev/xquik-mcp
-```
-
-### Gemini CLI
-
-```bash
-gemini extensions install https://github.com/Xquik-dev/xquik-mcp
-```
-
-Then run `/mcp auth xquik` in Gemini CLI to sign in.
-
-### Cline
-
-Follow [llms-install.md](llms-install.md).
-
-### Other clients
-
-Read the [MCP setup guide](https://docs.xquik.com/mcp/overview).
-
 ## Sign in
 
 Sign in to Xquik through your client. OAuth handles the token.
@@ -124,8 +140,30 @@ Your agent should call `search`, then `execute`.
 - The [privacy policy](https://xquik.com/en/privacy) and
   [terms](https://xquik.com/en/terms) cover what Xquik stores.
 
+## Questions
+
+### Do I need an X developer account?
+
+No. Public reads need only an Xquik API key. Private reads & X account actions
+need a connected X account.
+
+### Is this the official X API?
+
+No. Xquik is an independent third-party service with its own REST API. The MCP server
+calls that API, not the official X API.
+
 ## Links
 
 - [MCP docs](https://docs.xquik.com/mcp/overview)
 - [Website](https://xquik.com)
 - [Support](mailto:support@xquik.com)
+
+## More Xquik tools
+
+- [X (Twitter) scraper API & Twitter MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
+- Twitter API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go), [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby), [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
+- [Twitter CLI & X CLI](https://github.com/Xquik-dev/x-twitter-scraper-cli), the [X API alternative skill](https://github.com/Xquik-dev/x-api) and [Twitter advanced search operators](https://github.com/Xquik-dev/x-twitter-advanced-search) with tested examples.
+- Twitter agent plugins for [OpenClaw](https://github.com/Xquik-dev/tweetclaw) & [Hermes Agent](https://github.com/Xquik-dev/hermes-tweet), and the [Twitter API documentation source](https://github.com/Xquik-dev/xquik-docs).
+- Twitter integrations for [n8n](https://github.com/Xquik-dev/n8n-nodes-xquik), [Prefect](https://github.com/Xquik-dev/prefect-xquik), [Haystack](https://github.com/Xquik-dev/xquik-haystack), [Paperclip](https://github.com/Xquik-dev/paperclip-plugin-xquik), [Terraform](https://github.com/Xquik-dev/terraform-provider-x-twitter-scraper), [Convex](https://github.com/Xquik-dev/xquik-convex), [Supabase](https://github.com/Xquik-dev/xquik-supabase) & [Strapi](https://github.com/Xquik-dev/strapi-plugin-xquik).
+- Twitter MCP for [AI agents](https://github.com/Xquik-dev/xquik-mcp), [VS Code](https://github.com/Xquik-dev/xquik-vscode) & [Raycast](https://github.com/Xquik-dev/xquik-raycast).
+- [Xquik X API & Twitter scraper](https://xquik.com) and the [Twitter API documentation](https://docs.xquik.com/api-reference/overview).
