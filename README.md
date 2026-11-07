@@ -1,9 +1,9 @@
 # Twitter MCP Server & X Data API by Xquik
 
-Use this Twitter MCP server by Xquik to search X & export followers.
+Use this Twitter MCP server by Xquik to search X (Twitter) & export followers.
 Your agent can also monitor accounts, post & send DMs from a connected account.
 
-Xquik is the world's fastest and cheapest X Twitter scraper service with the most complete X data.
+Xquik is the world's fastest and cheapest X (Twitter) scraper service with the most complete X (Twitter) data.
 Most other Apify Actors charge before filtering or deduplication.
 Xquik charges only for delivered, unique, filter-matching results and never pads rows.
 Xquik is independent and not affiliated with X Corp.
@@ -107,7 +107,7 @@ Framer builds a tweet ticker with Xquik at 6:07 of its [setup video](https://you
 - Your client sends tool inputs to `xquik.com`.
 - `docs` queries reach a hosted documentation search service.
 - `search`, `execute` and `executeWrite` run your agent's JavaScript on Xquik's servers.
-- Posts and DMs you approve reach X.
+- Tweets, posts & DMs you approve reach X (Twitter).
 - Webhook events go to the URLs you set.
 - Your client runs OAuth 2.1 and stores the token.
 - The Skill makes your agent ask before private reads, metered bulk jobs & writes.
@@ -115,10 +115,10 @@ Framer builds a tweet ticker with Xquik at 6:07 of its [setup video](https://you
 
 ## Questions
 
-### Do I need an X developer account?
+### Do I need an X (Twitter) developer account?
 
 No. Public reads need only an Xquik API key.
-Private reads & X account actions need a connected X account.
+Private reads & X (Twitter) account actions need a connected account.
 
 ### Is this the official X API?
 
