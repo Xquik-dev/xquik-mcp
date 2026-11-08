@@ -1,6 +1,6 @@
-# Twitter MCP Server & X Data API by Xquik
+# X (Twitter) MCP Server & Data API by Xquik
 
-Use this Twitter MCP server by Xquik to search X (Twitter) & export followers.
+Use this X (Twitter) MCP server by Xquik to search X (Twitter) & export followers.
 Your agent can also monitor accounts, post & send DMs from a connected account.
 
 Xquik is the world's fastest and cheapest X (Twitter) scraper service with the most complete X (Twitter) data.
@@ -12,7 +12,7 @@ Xquik is independent and not affiliated with X Corp.
 The Xquik REST API read 45 tweets per second at $0.15 per 1,000 on 2026-10-15. The fastest of 4 rival Actors read 12.5 per second. The cheapest cost $0.173 per 1,000. [Compare each run](https://xquik.com/benchmarks#benchmark-x-tweet-scraper).
 <!-- trust:win:end -->
 
-## Install the Twitter MCP server
+## Install the X (Twitter) MCP server
 
 Point any MCP client at the hosted server.
 Sign in through your client, and OAuth handles the token.
@@ -25,7 +25,7 @@ Xquik has no free plan.
 Pay-as-you-go credits start at $10 and never expire.
 See prices in the [billing guide](https://docs.xquik.com/guides/billing) before your first paid request.
 
-### Add the X MCP to Claude Code
+### Add the X (Twitter) MCP to Claude Code
 
 Add the server with 1 command.
 
@@ -55,7 +55,7 @@ Follow [llms-install.md](llms-install.md).
 
 Read the [MCP setup guide](https://docs.xquik.com/mcp/overview).
 
-## Search X with the Twitter MCP server
+## Search X (Twitter) with the X (Twitter) MCP server
 
 Ask your agent in plain words.
 It should call `search`, then `execute`.
@@ -72,7 +72,7 @@ Next, read the [MCP tools reference](https://docs.xquik.com/mcp/tools) or the [R
 
 ## Benchmarks & usage
 
-[![Twitter API p99 server read time](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frest-p99.json)](https://xquik.com/benchmarks#speed)
+[![X (Twitter) API p99 server read time](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Frest-p99.json)](https://xquik.com/benchmarks#speed)
 [![Twitter Skill installs](https://img.shields.io/endpoint?url=https%3A%2F%2Fxquik.com%2Fbadges%2Fskill-installs.json)](https://xquik.com/benchmarks#skill-installs)
 
 - 6.4 s p99 REST API server read time over 7 days, failed reads included ([source](https://xquik.com/benchmarks#speed)) <!-- trust:rest-p99 6317 -->
@@ -127,17 +127,17 @@ The MCP server calls that API, not the official X API.
 
 ## More Xquik tools
 
-- [X (Twitter) scraper API & Twitter MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
-- Twitter API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go) & [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby).
-- Twitter API SDKs for [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
+- [X (Twitter) scraper API & X (Twitter) MCP server](https://github.com/Xquik-dev/x-twitter-scraper) with REST, MCP & Skill setup.
+- X (Twitter) API SDKs for [TypeScript](https://github.com/Xquik-dev/x-twitter-scraper-typescript), [Python](https://github.com/Xquik-dev/x-twitter-scraper-python), [Go](https://github.com/Xquik-dev/x-twitter-scraper-go) & [Ruby](https://github.com/Xquik-dev/x-twitter-scraper-ruby).
+- X (Twitter) API SDKs for [Java](https://github.com/Xquik-dev/x-twitter-scraper-java), [Kotlin](https://github.com/Xquik-dev/x-twitter-scraper-kotlin), [C#](https://github.com/Xquik-dev/x-twitter-scraper-csharp) & [PHP](https://github.com/Xquik-dev/x-twitter-scraper-php).
 - [Twitter CLI & X CLI](https://github.com/Xquik-dev/x-twitter-scraper-cli) for terminal workflows.
 - [X API alternative skill](https://github.com/Xquik-dev/x-api) and [Twitter advanced search operators](https://github.com/Xquik-dev/x-twitter-advanced-search) with tested examples.
 - Twitter agent plugins for [OpenClaw](https://github.com/Xquik-dev/tweetclaw) & [Hermes Agent](https://github.com/Xquik-dev/hermes-tweet).
-- [Twitter API documentation source](https://github.com/Xquik-dev/xquik-docs) with every public page.
+- [X (Twitter) API documentation source](https://github.com/Xquik-dev/xquik-docs) with every public page.
 - Twitter integrations for [n8n](https://github.com/Xquik-dev/n8n-nodes-xquik), [Prefect](https://github.com/Xquik-dev/prefect-xquik), [Haystack](https://github.com/Xquik-dev/xquik-haystack) & [Paperclip](https://github.com/Xquik-dev/paperclip-plugin-xquik).
 - Twitter integrations for [Terraform](https://github.com/Xquik-dev/terraform-provider-x-twitter-scraper), [Convex](https://github.com/Xquik-dev/xquik-convex), [Supabase](https://github.com/Xquik-dev/xquik-supabase) & [Strapi](https://github.com/Xquik-dev/strapi-plugin-xquik).
-- Twitter MCP for [VS Code](https://github.com/Xquik-dev/xquik-vscode) & [Raycast](https://github.com/Xquik-dev/xquik-raycast).
-- [Xquik X API & Twitter scraper](https://xquik.com) and the [Twitter API documentation](https://docs.xquik.com/api-reference/overview).
+- X (Twitter) MCP for [VS Code](https://github.com/Xquik-dev/xquik-vscode) & [Raycast](https://github.com/Xquik-dev/xquik-raycast).
+- [Xquik X API & Twitter scraper](https://xquik.com) and the [X (Twitter) API documentation](https://docs.xquik.com/api-reference/overview).
 
 ## Help
 
