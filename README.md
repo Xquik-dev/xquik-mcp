@@ -1,5 +1,9 @@
 # X (Twitter) MCP Server & Data API by Xquik
 
+[![Framer builds a tweet ticker with Xquik](https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg)](https://youtu.be/4UOSpoOoC3Y?t=367)\
+[Watch Framer build a tweet ticker with Xquik, from 6:07](https://youtu.be/4UOSpoOoC3Y?t=367).
+This MCP server connects your agent to Xquik.
+
 Use this X (Twitter) MCP server by Xquik to search X (Twitter) & export followers.
 Your agent can also monitor accounts, post & send DMs from a connected account.
 
@@ -96,12 +100,6 @@ Checked on 2026-11-09. See each number with its date & source on [xquik.com/benc
 The Claude plugin connects to `https://xquik.com/mcp?app=claude`.
 There, `execute` only reads, and `executeWrite` makes changes such as posts and DMs.
 The plugin's `xquik-mcp` Skill teaches your agent the tools, costs & confirmation rules.
-
-## Xquik in Framer's video
-
-Framer builds a tweet ticker with Xquik at 6:07 of its [setup video](https://youtu.be/4UOSpoOoC3Y?t=367).
-
-<a href="https://youtu.be/4UOSpoOoC3Y?t=367"><img src="https://img.youtube.com/vi/4UOSpoOoC3Y/maxresdefault.jpg" alt="Framer uses Xquik to build a tweet ticker" width="720"></a>
 
 ## Data & privacy
 
