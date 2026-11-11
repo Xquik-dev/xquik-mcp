@@ -1,0 +1,16 @@
+{
+  "name": "xquik",
+  "description": "Xquik is the world's fastest and cheapest X (Twitter) data API with the most complete X data. Search posts, read profiles, monitor accounts, post & send DMs over MCP. Not affiliated with X Corp.",
+  "version": "1.0.1",
+  "author": {
+    "name": "Xquik",
+    "email": "support@xquik.com"
+  },
+  "homepage": "https://xquik.com",
+  "repository": "https://github.com/Xquik-dev/xquik-mcp",
+  "license": "MIT",
+  "keywords": ["x-api", "twitter-api", "twitter-mcp", "x-mcp", "mcp"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
